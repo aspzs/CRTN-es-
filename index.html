@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Carton(es)</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <div class="logo1">
+      <img src="./logojeje.png" class="logo0" alt="CARTÓN" width="250" height="300">
+      <nav class="nav">
+        <p> CARTONES 2023</p><br>
+        <p>Arnol Segovia</p>
+        <ul><a href="#home">Contacto</a></ul>
+        <ul><a href="https://www.menil.org/collection/objects/16380-untitled">Inspiración</a></ul>
+      </nav>
+    </div>
+    <div class="inicio">
+      <div class="textoInicial">
+        <!-- <h1 class="proceso">Proceso</h1> -->
+
+        <div id="container">
+          <span id="text1"></span>
+          <span id="text2"></span>
+      </div>
+      
+      <svg id="filters">
+          <defs>
+              <filter id="threshold">
+                  <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                        0 1 0 0 0
+                        0 0 1 0 0
+                        0 0 0 255 -140" />
+              </filter>
+          </defs>
+      </svg>
+
+
+
+        <p>Hola <br><br>
+          Gracias al trabajo del artista Estadounidense <a href="https://es.wikipedia.org/wiki/Robert_Rauschenberg">Robert Rauschenberg</a> me decidí a experimentar y utilizar una mezcla de variados materiales combinandolos en una caja de cartón encontrada en casa. Este proceso resultó en 4 piezas con motivos diferentes celebrando la versatilidad y oportunidad que nos brindan casi todos los componentes usados en estas piezas como por ejemplo lo fueron la pintura acrílica, rocas de río y playa, plumones, marcatextos, y un sin fin de elementos que me brindaron un abrazo de espontaneidad al usarlos.  
+          <br><br> No hay orden especifíco, solo es una enumeración.
+        </p>
+        <h2 class="repeticion">CARTÓN1</h2>
+        <img src="./logojeje.png" alt="CARTÓN" width="250" height="300">
+        <h3 class="repeticion2">CARTÓN2</h3>
+        <img src="./logojeje.png" alt="CARTÓN" width="250" height="300">
+        <h4 class="repeticion3">CARTÓN3</h4>
+        <img src="./logojeje.png" alt="CARTÓN" width="250" height="300">
+        <h5 class="repeticion4">CARTÓN4</h5>
+        <img src="./logojeje.png" alt="CARTÓN" width="250" height="300">
+      </div>
+    </div>
+    <div class="segundaParte">
+      
+
+    </div>
+    <script src="sketch.js"></script>
+    <script src="effect.js"></script>
+  </body>
+</html>
